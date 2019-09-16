@@ -1,0 +1,113 @@
+
+
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  }
+.grid-container{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  }
+
+.header {
+  clear: right;
+  }
+.nav {
+  background-color: #ecb722;
+  text-align: right;
+  padding-bottom: 20px;
+}
+.origin {
+ background-color:#444444;
+  color: white;
+}
+.calendar{
+  grid-area:  2 / 2 / 3 / 3;
+  width: 300px;
+  margin-top: 25px;
+
+  padding: 10px;
+  }
+.new-student {
+  grid-area:  2 / 4 / 3 / 5;
+  width: 300px;
+  margin-top: 25px;
+  background-color:
+  padding: 10px;
+  }
+  .gallery{
+    border-top: 5px solid #444444;
+    margin-top: 10px;
+  }
+img {
+  padding: 0 10px;
+
+
+}
+.instructor-1{
+border-bottom: 5px solid #444444;
+}
+.instructor-2{
+border-bottom: 5px solid #444444;
+}
+.instructor-3{
+border-bottom: 5px solid #444444;
+}
+
+.footer {
+  background-color: #1b447f;
+  color: white;
+  text-align: center;
+  }
+.logo{
+  size: 50%;
+}
+p {
+  font-family: Arial, sans-serif;
+  font-size: 17px;
+  font-style: normal;
+}
+li{
+  color: black;
+font-family: Arial, sans-serif;
+font-size: 24px;
+}
+a:link {
+  color: black;
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+}
+a:visited {
+  color: blue;
+}
+
+h1{
+  font-family: Arial , sans-serif;
+  font-style: bold;
+  font-size: 40px;
+}
+h2{
+  font-family: Arial, sans-serif;
+  font-style: bold;
+  font-size: 24px;
+h3{
+  font-family: Arial, sans-serif;
+  font-style: bold;
+  font-size: 17px;
+}
+
+
+quotes{
+  font-family: Arial, sans-serif;
+  font-size: 30px;
+  color: #03a3df;
+}
+quoter{
+  font-family: Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #03a3df
+}
