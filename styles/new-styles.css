@@ -19,10 +19,8 @@
   margin-top: auto;
   padding-bottom: 20px;
 }
-.origin {
- background-color:#444444;
-  color: white;
-}
+
+
 .calendar{
   grid-area:  2 / 2 / 3 / 3;
   width: 300px;
